@@ -1,0 +1,30 @@
+
+---
+
+### 2. `CHANGELOG.md` (новий файл)
+
+```markdown
+# Changelog
+
+## [Unreleased]
+### Added
+- Portfolio Margining v2
+- AutoYield для всіх idle позицій
+
+### Changed
+- Оптимізація Parallel EVM (+42% throughput)
+
+## [v0.2.1] - 2026-05-18
+**feat: Portfolio Margining v2** (`8f3a2c1`)
+- Єдиний margin розрахунок для всього портфеля
+- Cross-collateral між perpetuals та spot
+
+## [v0.2.0] - 2026-05-16
+**feat: AutoYield integration** (`7d9b1e4`)
+- Автоматичний yield на невикористаний margin
+- 0 додаткових газових витрат
+
+## [v0.1.9] - 2026-05-13
+**perf: Parallel EVM optimization** (`6a4f9e2`)
+- Значне покращення паралельного виконання
+- Зменшення state conflicts
