@@ -1,0 +1,8 @@
+# Пример взаимодействия с on-chain orderbook (Solidity)
+import {OrderBook} from "@risechain/marketcore";
+
+contract MyStrategy {
+    function placeOrder(...) external {
+        // ...
+    }
+}
